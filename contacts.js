@@ -36,6 +36,7 @@ const stopQuestion = (tambahLagi) => {
         };
     } else if (tambahLagi == 2) {
         rl.close();
+        return false;
     } else {
         return {
             status: false,
